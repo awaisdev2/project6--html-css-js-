@@ -1,0 +1,53 @@
+.body-wrap{
+    background-image: url('download1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.text-wrap::placeholder{
+    color: rgb(187, 164, 164);
+}
+.rounded-wrap{
+    border-radius: 40px !important;
+}
+@media screen and (max-width:1023px) {
+    .contain-wrap{
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width:823px) {
+    .contain-wrap{
+        margin-left: 20%;
+    }
+    .form-wrap{
+        margin-left: 20px;
+    }
+    .form-wrapper{
+        width: 700px;
+    }
+}
+@media screen and (max-width:767px) {
+    .image-wrap{
+        margin-left: 30%;
+    }
+    .form-wrapper{
+        width: 650px;
+    }
+}
+@media screen and (max-width:410px) {
+    .image-wrap{
+        margin-left: 13%;
+    }
+    .form-wrapper{
+
+    }
+}
+@media screen and (max-width:585px) {
+    .contain-wrap{
+        margin-left: 10%;
+    }
+}
+.form-wrapper{
+    width: 48rem;
+}
